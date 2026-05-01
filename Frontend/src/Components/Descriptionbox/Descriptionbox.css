@@ -1,0 +1,48 @@
+.Descriptionbox{
+    margin: 10rem 12rem;
+}
+.Descriptionbox-navigator{
+    display: flex;
+
+}
+.Descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 17.1rem;
+    height: 7rem;
+    border: 1px solid #d0d0d0;
+    
+}
+.Descriptionbox-nav-box-fade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 17.1rem;
+    height: 7rem;
+    border: 1px solid #d0d0d0;
+}
+
+
+.Descriptionbox-des{
+     display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    border: 1px solid #d0d0d0;
+    padding: 4.8rem;
+    padding-bottom: 5rem;
+    justify-content: center;
+    text-align:justify;
+    font-size:1.4rem;
+}
+@media(max-width:34.375em){
+    .Descriptionbox-des{
+    padding: 2rem;
+    padding-bottom: 3rem;
+    
+}
+}
